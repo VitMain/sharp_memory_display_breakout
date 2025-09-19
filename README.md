@@ -7,6 +7,14 @@ This project is designed to be as small as possible, using fewer components than
 ![](img/sharp_memory_display-1.png)
 ![](img/sharp_memory_display-2.png)
 
+## Sponsor
+
+<a href="https://www.nextpcb.com" target="_blank">
+  <img src="https://static.nextpcb.com/images/newNavIcon/logo2025.svg" alt="NextPCB Logo" width="200">
+</a>
+
+**This project is proudly sponsored by [NextPCB](https://www.nextpcb.com)** - Your trusted PCB Prototype & Fabrication Manufacturer. NextPCB provides high-quality PCB manufacturing services with fast turnaround times, making them the perfect partner for bringing electronics projects to life.
+
 ## Versions
 
 This repository contains a few different versions of the breakout board. Production files (Gerber, schematic, STEP) for all versions are available in the [Releases section](https://github.com/karnadii/sharp_memory_display_breakout/releases).
@@ -65,7 +73,7 @@ If you need a smaller board, the mounting hole tabs can be carefully broken off.
 
 ## Cost Estimate
 
-This is a DIY project. The approximate cost for a single breakout board is **$15 - $20** (before shipping), assuming you order 5 PCBs from a service like JLCPCB and source the displays from AliExpress. Costs can be reduced by sourcing components from cheaper vendors and self-assembly.
+This is a DIY project. The approximate cost for a single breakout board is **$15 - $20** (before shipping), assuming you order 5 PCBs from a service like [NextPCB](https://www.nextpcb.com) and source the displays from AliExpress. Costs can be reduced by sourcing components from cheaper vendors and self-assembly.
 
 For comparison, the pre-built [nice!view](https://nicekeyboards.com/nice-view) is sold for around $20.
 
