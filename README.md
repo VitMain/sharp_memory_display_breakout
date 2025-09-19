@@ -1,6 +1,8 @@
-# Sharp Memory Display Breakout - nice!view Compatible Version (LS011B7DH03)
+# Sharp Memory Display Breakout (LS011B7DH03)
 
-A pin-compatible breakout board for the Sharp LS011B7DH03, designed as a DIY alternative to the [nice!view](https://nicekeyboards.com/nice-view). This 1.1-inch, 160x68 pixel monochrome memory display features e-paper-like characteristics (~10µA power draw) and high refresh rate (30Hz).
+A breakout board for the Sharp LS011B7DH03, a 1.1-inch, 160x68 pixel monochrome memory display. This display is ideal for low-power applications like wireless keyboards due to its e-paper-like characteristics (~10µA power draw) and high refresh rate (30Hz).
+
+This project is designed to be as small as possible, using fewer components than the Adafruit memory display breakout.
 
 ![](img/sharp_memory_display-1.png)
 ![](img/sharp_memory_display-2.png)
@@ -13,36 +15,39 @@ A pin-compatible breakout board for the Sharp LS011B7DH03, designed as a DIY alt
 
 **This project is proudly sponsored by [NextPCB](https://www.nextpcb.com)** - Your trusted PCB Prototype & Fabrication Manufacturer. NextPCB provides high-quality PCB manufacturing services with fast turnaround times, making them the perfect partner for bringing electronics projects to life.
 
-## About This Version
+## Versions
 
-This is the **nice!view compatible version without mounting holes**. It features the same pinout as the nice!view but has a smaller footprint by omitting the mounting holes. This version is ideal for space-constrained builds where mounting holes aren't needed.
+This repository contains a few different versions of the breakout board. Production files (Gerber, schematic, STEP) for all versions are available in the [Releases section](https://github.com/karnadii/sharp_memory_display_breakout/releases).
 
-**Note:** This is a DIY project. For a ready-to-use product, consider purchasing the [nice!view](https://nicekeyboards.com/nice-view) instead.
+### 1. Original Version
 
-![](https://user-images.githubusercontent.com/18657277/194879312-87c62482-2db9-4534-9033-acd872659235.png)
+This is the original design. It is designed with the pinout of a 128x32 OLED display in mind, making it a potential replacement for common displays used in mechanical keyboards. Available on the **[main branch](https://github.com/karnadii/sharp_memory_display_breakout/tree/main)**.
 
-## Other Versions
+### 2. nice!view Compatible Versions (this branch)
 
-This repository contains multiple versions of the breakout board:
+To support the growing ecosystem around the [nice!view](https://nicekeyboards.com/nice-view), compatible versions of this breakout are available. These are intended as a DIY alternative if the nice!view is out of stock. They use the same pinout and should work with the same ZMK configurations.
 
-- **[Main Branch](https://github.com/karnadii/sharp_memory_display_breakout/tree/main)**: Original version with 128x32 OLED pinout compatibility
-- **[niceview-compat](https://github.com/karnadii/sharp_memory_display_breakout/tree/niceview-compat)**: Pin-compatible with mounting holes for secure installation
+- **[niceview-compat](https://github.com/karnadii/sharp_memory_display_breakout/tree/niceview-compat)**: Pin-compatible with mounting holes.
+  ![](https://user-images.githubusercontent.com/18657277/194873657-1129d21d-75bb-4b89-be37-b34f9244c195.png)
 
-Production files (Gerber, schematic, STEP) for all versions are available in the [Releases section](https://github.com/karnadii/sharp_memory_display_breakout/releases).
+- **[niceview-compat-no-mount](https://github.com/karnadii/sharp_memory_display_breakout/tree/niceview-compat-no-mount)**: Pin-compatible without mounting holes for a smaller footprint (this branch).
+  ![](https://user-images.githubusercontent.com/18657277/194879312-87c62482-2db9-4534-9033-acd872659235.png)
 
-## Pinout Compatibility
+> **Note:** This is a DIY project. For a ready-to-use product, consider purchasing the [nice!view](https://nicekeyboards.com/nice-view) instead.
 
-This version is pin-compatible with the nice!view and should work with the same ZMK configurations. The pinout matches the nice!view standard for easy drop-in replacement.
+## Design and Usage
 
-![](https://cdn.discordapp.com/attachments/920911115414814751/921093724509962290/IMG_20210911_230619.jpg)
+### Pinout Compatibility
 
-## Installation
+The nice!view compatible version is designed to be pin-compatible with the nice!view display, making it a drop-in replacement for use with ZMK configurations.
+
+### Installation
 
 The breakout can be used in several ways:
 - **Socketed/Soldered:** Solder pin headers to use it directly with a microcontroller board.
 - **Daughterboard:** Solder the JST connector and use it as a daughterboard.
 
-## PCB Size
+### PCB Size
 
 ![](img/size.png)
 
@@ -77,6 +82,3 @@ https://user-images.githubusercontent.com/18657277/137644641-276d998f-445c-41ad-
 
 ### CircuitPython
 https://user-images.githubusercontent.com/18657277/146429499-8556456f-ffeb-47a3-a99c-73e11da73714.mp4
-
-### ZMK
-![](https://media.discordapp.net/attachments/785533287049330729/1020985541698785380/IMG_20220918_150543.jpg?width=915&height=686)
